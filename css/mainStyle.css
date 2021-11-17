@@ -11,6 +11,7 @@
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
     box-sizing: border-box;
  }
  body{
@@ -174,6 +175,9 @@
     text-align: center;
     width: 350px;
     max-width: 100%;
+    -webkit-transform: translate(-50% , -50%) ;
+    -moz-transform: translate(-50% , -50%) ;
+    -o-transform: translate(-50% , -50%) ;
     transform: translate(-50% , -50%) ;
 }
 .landing .in-text h1{
